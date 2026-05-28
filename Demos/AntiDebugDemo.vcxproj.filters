@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9b12e6fe-fbea-45aa-815f-f91af624ec4b}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx</Extensions>
+    </Filter>
+    <Filter Include="Individual Demos">
+      <UniqueIdentifier>{1d1fa8f8-1b0f-47a8-bf2b-a6eb72ea9e9f}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx</Extensions>
+    </Filter>
+    <Filter Include="Build Scripts">
+      <UniqueIdentifier>{3915923f-a983-45dd-8566-51b21177dded}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AntiDebugDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="build.bat">
+      <Filter>Build Scripts</Filter>
+    </None>
+    <None Include="individual\CheckRemoteDebuggerPresent_demo.cpp">
+      <Filter>Individual Demos</Filter>
+    </None>
+    <None Include="individual\DebugBreak_demo.cpp">
+      <Filter>Individual Demos</Filter>
+    </None>
+    <None Include="individual\FindWindow_demo.cpp">
+      <Filter>Individual Demos</Filter>
+    </None>
+    <None Include="individual\HardwareBreakpoints_demo.cpp">
+      <Filter>Individual Demos</Filter>
+    </None>
+    <None Include="individual\IsDebuggerPresent_demo.cpp">
+      <Filter>Individual Demos</Filter>
+    </None>
+    <None Include="individual\NoDebugInherit_demo.cpp">
+      <Filter>Individual Demos</Filter>
+    </None>
+    <None Include="individual\NtQueryInformationProcess_demo.cpp">
+      <Filter>Individual Demos</Filter>
+    </None>
+    <None Include="individual\ParentProcess_demo.cpp">
+      <Filter>Individual Demos</Filter>
+    </None>
+    <None Include="individual\PEB_demo.cpp">
+      <Filter>Individual Demos</Filter>
+    </None>
+    <None Include="individual\ThreadHideFromDebugger_demo.cpp">
+      <Filter>Individual Demos</Filter>
+    </None>
+    <None Include="individual\TimingCheck_demo.cpp">
+      <Filter>Individual Demos</Filter>
+    </None>
+  </ItemGroup>
+</Project>
